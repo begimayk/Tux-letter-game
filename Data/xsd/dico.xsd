@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+
+
+<xs:schema version="1.0" 
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tux="http://myGame/tux"
+           targetNamespace="http://myGame/tux"
+           elementFormDefault="qualified">
+
+    
+    <!-- ici on Instance la dictionnaire echec -->
+    <xs:element name="dictionnaire" type="tux:Dictionnaire"/>
+    
+
+    <!-- ici on définit le type complexe DICTIONNAIRE possèdant 0 ou une infinité de mots -->
+    <xs:complexType name="Dictionnaire">
+        <xs:sequence>
+            <xs:element name="mot" type="tux:Mot" minOccurs="0" maxOccurs="100000000"/>
+        </xs:sequence>
+    </xs:complexType>   
+    
+    <!-- ici on définit le type simple MOT -->
+    <xs:complexType name="Mot">
+        <xs:simpleContent>
+            <xs:extension base="tux:Code">
+               <xs:attribute name="niveau" type="tux:Niveau"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    
+    <!-- ici on définit le type simple Niveau  -->
+    <xs:simpleType name="Niveau">
+        <!-- doit être un entier entre 1 et 5  -->
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="5"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+    <!-- On définit un type CODE pour ajouter un pattern au type complex MOT -->
+    <xs:simpleType name="Code">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-zàâäéèêëïîôöùûüÿç]{1}[a-zàâäéèêëïîôöùûüÿç-][a-zàâäéèêëïîôöùûüÿç-][a-zàâäéèêëïîôöùûüÿç-]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>
