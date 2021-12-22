@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profil>
+    <nom>rayan</nom>
+    <anniversaire>2001-05-01</anniversaire>
+    <parties>
+        <partie date="12-12-2021" trouvé="16">
+            <mot niveau="3">crayon</mot>
+        </partie>
+        <partie date="12-12-2021" trouvé="50">
+            <mot niveau="3">crayon</mot>
+        </partie>
+        <partie date="12-12-2021" trouvé="60">
+            <mot niveau="4">coque</mot>
+        </partie>
+        <partie date="12-12-2021" trouvé="0">
+            <mot niveau="1">cle</mot>
+        </partie>
+        <partie date="13-12-2021" trouvé="0">
+            <mot niveau="5">anticonstitutionnellement</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="0">
+            <mot niveau="3">crayon</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="0">
+            <mot niveau="1">noir</mot>
+        </partie>
+        <partie date="14-12-2021">
+            <temps>9</temps>
+            <mot niveau="1">chat</mot>
+        </partie>
+    </parties>
+</profil>
