@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tux:dictionnaire>
+    <tux:mot niveau="1">toto</tux:mot>
+    <tux:mot niveau="1">oui</tux:mot>
+    <tux:mot niveau="1">vite</tux:mot>
+    <tux:mot niveau="1">sac</tux:mot>
+    <tux:mot niveau="1">carte</tux:mot>
+    <tux:mot niveau="1">tux</tux:mot>
+    <tux:mot niveau="1">chat</tux:mot>
+    <tux:mot niveau="1">noir</tux:mot>
+    <tux:mot niveau="1">rapide</tux:mot>
+    <tux:mot niveau="1">two</tux:mot>
+    <tux:mot niveau="1">chien</tux:mot>
+    <tux:mot niveau="2">coucou</tux:mot>
+    <tux:mot niveau="2">coque</tux:mot>
+    <tux:mot niveau="2">test</tux:mot>
+    <tux:mot niveau="2">banque</tux:mot>
+    <tux:mot niveau="2">chaise</tux:mot>
+    <tux:mot niveau="2">porte</tux:mot>
+    <tux:mot niveau="2">froid</tux:mot>
+    <tux:mot niveau="2">papier</tux:mot>
+    <tux:mot niveau="2">niveau</tux:mot>
+    <tux:mot niveau="2">table</tux:mot>
+    <tux:mot niveau="3">abasourdi</tux:mot>
+    <tux:mot niveau="3">crayon</tux:mot>
+    <tux:mot niveau="3">visage</tux:mot>
+    <tux:mot niveau="3">heureux</tux:mot>
+    <tux:mot niveau="3">chemise</tux:mot>
+    <tux:mot niveau="4">abondamment</tux:mot>
+    <tux:mot niveau="4">millionnaire</tux:mot>
+    <tux:mot niveau="4">télécommunication</tux:mot>
+    <tux:mot niveau="4">salutations</tux:mot>
+    <tux:mot niveau="5">électro-encéphalographie</tux:mot>
+    <tux:mot niveau="5">électroluminescences</tux:mot>
+    <tux:mot niveau="5">anticonstitutionnellement</tux:mot>
+    <tux:mot niveau="5">cyclopentanoperhydrophénanthrène</tux:mot>
+    <tux:mot niveau="5">intergouvernementalisations</tux:mot>
+</tux:dictionnaire>
