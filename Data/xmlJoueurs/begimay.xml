@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profil>
+    <nom>begimay</nom>
+    <anniversaire>2002-03-05</anniversaire>
+    <parties>
+        <partie date="09-12-2021" trouvé="0">
+            <mot niveau="1">téléphone</mot>
+        </partie>
+        <partie date="09-12-2021" trouvé="0">
+            <mot niveau="2">téléphone</mot>
+        </partie>
+        <partie date="11-12-2021" trouvé="33">
+            <mot niveau="3">crayon</mot>
+        </partie>
+        <partie date="12-12-2021" trouvé="40">
+            <mot niveau="4">coque</mot>
+        </partie>
+        <partie date="12-12-2021" trouvé="20">
+            <mot niveau="5">ordinateur</mot>
+        </partie>
+        <partie date="12-12-2021" trouvé="40">
+            <mot niveau="2">froid</mot>
+        </partie>
+        <partie date="12-12-2021" trouvé="0">
+            <mot niveau="1">noir</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="0">
+            <mot niveau="2">froid</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="0">
+            <mot niveau="4">coque</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="50">
+            <mot niveau="2">test</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="0">
+            <mot niveau="4">coque</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="50">
+            <mot niveau="1">toto</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="50">
+            <mot niveau="2">test</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="0">
+            <mot niveau="1">two</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="0">
+            <mot niveau="1">toto</mot>
+        </partie>
+        <partie date="14-12-2021">
+            <temps>8</temps>
+            <mot niveau="1">chat</mot>
+        </partie>
+        <partie date="14-12-2021" trouvé="6">
+            <mot niveau="5">cyclopentanoperhydrophénanthrène</mot>
+        </partie>
+    </parties>
+</profil>
