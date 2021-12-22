@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tux="http://myGame/tux"
+           targetNamespace="http://myGame/tux"
+           elementFormDefault="qualified">
+
+    <!-- On importe -->
+    <xs:include schemaLocation="dico.xsd"/>
+    
+    
+    
+    <!-- On créé la racine profil-->
+    <xs:element name="profil" type="tux:Profil"/>
+  
+    
+    
+    <!-- On définit le Type complexe Profil doit contenir 4 éléments
+            un nom (string)
+            un avatar (string) correspondant à une image.jpg
+            une date anniversaire (date)
+            des parties (Parties) qui contiendront eux mêmes des parties jouées 
+    -->
+    <xs:complexType name="Profil">
+        <xs:sequence>
+            
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="avatar" type="xs:string"/>
+            <xs:element name="anniversaire" type="xs:date"/>
+            <xs:element name="parties" type="tux:Parties"/>
+            
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+
+    <!-- On définit le Type complexe Parties doit contenir
+            0 ou une infinité de parties (Parties)
+    -->
+    <xs:complexType name="Parties">
+        <xs:sequence>
+            
+            <xs:element name="partie" type="tux:Partie" minOccurs="0" maxOccurs="100000000"/>
+            
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    
+    <!-- On définit le Type complexe d'une Partie doit contenir
+            un attribut date (date)
+            un attribut optionnel trouvé
+    -->
+    <xs:complexType name="Partie">
+        <xs:complexContent>
+            <xs:extension base="tux:StatsPartie">
+               <xs:attribute name="date" type="xs:date"/>
+               <xs:attribute name="trouvé" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    
+    
+    <!-- On définit le Type complexe StatsPartie doit contenir
+            un temps de partie (double)
+            un mot (Mot) 
+    -->
+    <xs:complexType name="StatsPartie">
+        <xs:sequence>
+            
+            <xs:element name="temps" type="xs:double" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="mot" type="tux:Mot"/>
+            
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    
+    
+</xs:schema>
